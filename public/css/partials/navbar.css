@@ -1,0 +1,63 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Same width as the sidebar */
+    height: 60px; /* Adjust as needed */
+    background-color: #EDEDED;   /* Slightly darker background color */
+    color: #333; /* Text color */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Align content from right */
+    z-index: 999;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.navbar-content {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 18px;
+    display: flex; /* Flexbox to center the image */
+    align-items: center; /* Vertically center the logo */
+}
+
+
+.brand-logo {
+    width: 65px; /* Adjust size as needed */
+    height: 65px; /* Keep it square for the circle effect */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the circle */
+    margin-right: 10px; /* Optional: space between logo and text */
+}
+
+.navbar-brand-link {
+    color: #333; /* Text color */
+    text-decoration: none;
+}
+
+main {
+    margin-top: 80px !important;
+}
+
+@media (min-width: 768px) {
+    main {
+        margin-top: 100px !important;
+    }
+    .navbar {
+        height: 80px;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex-grow: 0.9 !important; /* Allow the main content to grow to fill the remaining space */
+}

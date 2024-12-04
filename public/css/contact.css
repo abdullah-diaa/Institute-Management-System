@@ -1,0 +1,72 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.card {
+    border: 2px solid #6f42c1; /* Purple border */
+    border-radius: 15px;
+    background-color: #ffffff; /* White background for the card */
+    color: #333; /* Dark text color for better readability */
+    padding: 20px; /* Added padding for inner spacing */
+    transition: box-shadow 0.3s; /* Smooth shadow transition */
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Light shadow on hover */
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #6f42c1; /* Purple title color */
+}
+
+h2 span {
+
+color: #6f42c1 ;
+
+}
+
+.icon-container {
+    transition: transform 0.2s;
+}
+
+.icon-container:hover {
+    transform: scale(1.1);
+}
+
+.icon-button {
+    text-decoration: none;
+    color:  #070707; /* Purple color for icons */
+}
+
+.icon-button:hover {
+    color: #6f42c1; /* Change icon color on hover (gold) */
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.modal-body {
+    font-size: 16px;
+    color: #555; /* Darker color for modal body text */
+}

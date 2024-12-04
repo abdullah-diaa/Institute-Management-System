@@ -1,0 +1,104 @@
+/* General styles */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Playlist Info */
+.playlist-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.playlist-info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #343a40;
+}
+
+.playlist-info p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.card-header {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.card-header h5 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body iframe {
+    border-radius: 0.5rem;
+}
+
+/* Notification Styles */
+#notification-container {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    z-index: 1000;
+}
+
+.notification {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.notification.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.notification.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Pagination Styles */
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    pointer-events: none;
+}
+
+.pagination .page-link {
+    color: #007bff;
+    padding: 10px 15px;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    color: #0056b3;
+}
+
+.pagination .active .page-link {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}

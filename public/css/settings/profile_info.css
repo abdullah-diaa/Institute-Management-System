@@ -1,0 +1,56 @@
+/* Container Styling */
+.container {
+    max-width: 800px;
+}
+
+/* Card Styling */
+.card-header {
+    background-color: #6a0dad; /* Matching Purple Color */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #6a0dad;
+    color: #fff;
+}
+
+.nav-tabs .nav-link {
+    color: #6a0dad;
+}
+
+.btn-purple {
+    background-color: #6a0dad;
+    color: #fff;
+}
+
+.btn-purple:hover {
+    background-color: #5a0ba8;
+    color: #fff;
+}
+
+/* Input Styling */
+.input-group-text {
+    background-color: #6a0dad;
+    color: white;
+}
+
+.form-control:focus {
+    border-color: #6a0dad;
+    box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
+}
+
+/* Icon Styling */
+.fas {
+    font-size: 1.2em;
+}
+
+/* Custom Padding */
+.card-body {
+    padding: 30px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+}
