@@ -40,7 +40,7 @@ To get your local environment up and running, follow these steps:
    ```bash
    git clone https://github.com/your-username/institute-management-system.git
    cd institute-management-system
-    ```
+    
 
 
 2. **Install Dependencies**  
@@ -48,35 +48,35 @@ To get your local environment up and running, follow these steps:
 
     ```bash
         composer install
-        ```
+        
 
 3. **Setup the Environment**  
     Copy the .env.example file to .env:
 
     ```bash
         cp .env.example .env
-        ```
+        
 
 4. **Generate Application Key**  
     Create an application key for security:
 
     ```bash
     php artisan key:generate
-        ```
+        
 
 5. **Migrate the Database**  
     Run the database migrations:
 
     ```bash
     php artisan migrate
-    ```
+    
 
 6. **Run the Server**  
     Start the Laravel development server:
 
     ```bash
     php artisan serve
-    ```
+    
 
 This will start the application on http://localhost:8000.
 
